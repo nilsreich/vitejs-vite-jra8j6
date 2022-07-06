@@ -19,6 +19,7 @@
     "@tiptap/extension-bubble-menu": "*",
     "@tiptap/extension-floating-menu": "*",
     "@tiptap/starter-kit": "*",
+    "babel-preset-solid": "^1.4.6",
     "solid-js": "^1.4.2",
     "tiptap-solid": "^0.1.2"
   }
