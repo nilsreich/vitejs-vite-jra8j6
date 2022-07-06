@@ -12,5 +12,16 @@ export const Tiptap: Component = () => {
     </p>
   </solid-component>!`,
   });
-  return <EditorContent editor={editor()} />;
+  return (
+    <>
+      <button
+        onClick={() =>
+          editor()?.chain().focus().insertContent('<solid-component />').run()
+        }
+      >
+        insert
+      </button>
+      <EditorContent editor={editor()} />
+    </>
+  );
 };
